@@ -32,7 +32,8 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_init(
     return CallbackReturn::ERROR;
   }
 
-  joint_pos_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+  //以joint_pos_commands_为例，保存了所有joint下的position command interface的值
+  joint_pos_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN()); //初始化数组，大小和info_.joints相同，在resource manger中描述，数量为2
   joint_vel_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   joint_pos_states_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   joint_vel_states_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
@@ -46,7 +47,7 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_init(
   gpio_outs_storage_.resize(2, false);
   gpio_cmds_storage_.resize(2, false);
   sensor_states_.resize(
-    info_.sensors[0].state_interfaces.size(), std::numeric_limits<double>::quiet_NaN());
+    info_.sensors[0].state_interfaces.size(), std::numeric_limits<double>::quiet_NaN()); //同理，sensors数量为1
 
   return CallbackReturn::SUCCESS;
 }

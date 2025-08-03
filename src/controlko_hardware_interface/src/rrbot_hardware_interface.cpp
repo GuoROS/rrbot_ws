@@ -55,7 +55,7 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_init(
 hardware_interface::CallbackReturn RRBotHardwareInterface::on_configure(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
-  rrbot_comms_ = std::make_unique<dr_denis_rrbot_comms::DrDenisRRBotComms>(info_.joints.size());
+  rrbot_comms_ = std::make_unique<dr_denis_rrbot_comms::DrDenisRRBotComms>(info_.joints.size()); //假装用一个【0.0, 0.0】二维数组控制机械臂的joint角度位置
 
   return CallbackReturn::SUCCESS;
 }
@@ -83,14 +83,17 @@ std::vector<hardware_interface::StateInterface> RRBotHardwareInterface::export_s
   }
 
   i = 0;
-  for (const auto & state_itf : info_.sensors[0].state_interfaces)
+  for (const auto & state_itf : info_.sensors[0].state_interfaces)//描述了sensor下所有的state_interface,长度为6的数组
   {
     state_interfaces.emplace_back(
-      hardware_interface::StateInterface(info_.sensors[0].name, state_itf.name, &sensor_states_[i]));
+      //info_.sensors[0].name对应tcp_fts_sensor; 
+      // state_itf.name对应所有的state_interface的fx，fy,fz....
+      // &sensor_states_[i]在on_init()中初始化,将指针传递给StateInterface类
+      hardware_interface::StateInterface(info_.sensors[0].name, state_itf.name, &sensor_states_[i])); 
     ++i;
   }
 
-  return state_interfaces;
+  return state_interfaces; //返回给resource manager，再暴露给controller
 }
 
 std::vector<hardware_interface::CommandInterface>

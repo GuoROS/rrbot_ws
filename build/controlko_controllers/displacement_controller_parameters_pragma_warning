@@ -1,0 +1,1 @@
+#pragma message("#include \"displacement_controller_parameters.hpp\" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead.")

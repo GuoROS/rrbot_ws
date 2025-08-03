@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/gbb/rrbot_ws/my_hardware_interface':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/gbb/rrbot_ws/build/my_hardware_interface/test_results/my_hardware_interface/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/gbb/rrbot_ws/build/my_hardware_interface/test_results/my_hardware_interface/lint_cmake.xunit.xml'

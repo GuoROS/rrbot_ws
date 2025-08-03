@@ -1,0 +1,1 @@
+/home/gbb/rrbot_ws/build/my_hardware_interface/ament_cmake_environment_hooks/local_setup.sh

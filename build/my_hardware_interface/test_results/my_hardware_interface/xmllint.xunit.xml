@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="my_hardware_interface.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="1.356"
+>
+  <testcase
+    name="my_hardware_interface.xml"
+    classname="my_hardware_interface.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="my_hardware_interface.xmllint"/>
+  <system-out>Checked files:
+* my_hardware_interface.xml
+* package.xml</system-out>
+</testsuite>

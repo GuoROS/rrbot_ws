@@ -1,6 +1,7 @@
 /home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/config/soho-12_controllers.yaml
 /home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/config/test_goal_publishers_config.yaml
 /home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/config/rrbot_controllers.yaml
+/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/rrbot_real.launch.py
 /home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/test_joint_trajectory_controller.launch.py
 /home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/rrbot_sim_gazebo_classic.launch.py
 /home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/soho-12.launch.py

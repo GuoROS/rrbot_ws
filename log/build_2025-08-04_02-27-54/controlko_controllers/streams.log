@@ -1,0 +1,43 @@
+[0.091s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_controllers -- -j8 -l8
+[0.381s] [ 13%] Built target displacement_controller_parameters
+[0.388s] [ 26%] Built target gmock_main
+[0.437s] [ 46%] Built target gmock
+[0.505s] [ 60%] Built target displacement_controller
+[0.666s] [ 73%] Built target test_load_displacement_controller
+[0.677s] [ 86%] Built target test_displacement_controller
+[0.704s] [100%] Built target test_displacement_controller_preceeding
+[0.992s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_controllers -- -j8 -l8
+[0.996s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_controllers
+[1.074s] -- Install configuration: ""
+[1.074s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers
+[1.074s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/validate_displacement_controller_parameters.hpp
+[1.075s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/displacement_controller_parameters.hpp
+[1.075s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/controlko_controllers.xml
+[1.076s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/lib/libdisplacement_controller.so
+[1.076s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include
+[1.076s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers
+[1.076s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/validate_displacement_controller_parameters.hpp
+[1.077s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/visibility_control.h
+[1.077s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/displacement_controller.hpp
+[1.077s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/library_path.sh
+[1.077s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/library_path.dsv
+[1.077s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/package_run_dependencies/controlko_controllers
+[1.078s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/parent_prefix_path/controlko_controllers
+[1.079s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/ament_prefix_path.sh
+[1.079s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/ament_prefix_path.dsv
+[1.079s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/path.sh
+[1.080s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/path.dsv
+[1.080s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.bash
+[1.080s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.sh
+[1.080s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.zsh
+[1.080s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.dsv
+[1.081s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.dsv
+[1.081s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/packages/controlko_controllers
+[1.081s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controlko_controllers
+[1.082s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.082s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.082s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[1.082s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/controlko_controllersConfig.cmake
+[1.083s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/controlko_controllersConfig-version.cmake
+[1.083s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.xml
+[1.243s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_controllers

@@ -1,0 +1,38 @@
+[0.105s] Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+[0.380s] [ 50%] Built target my_position_controller_parameters
+[0.476s] [100%] Built target my_position_controller
+[0.997s] Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+[1.002s] Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_position_controller
+[1.058s] -- Install configuration: ""
+[1.058s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller
+[1.058s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/validate_my_position_controller_parameters.hpp
+[1.059s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller_parameters.hpp
+[1.059s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/my_position_controller.xml
+[1.059s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/lib/libmy_position_controller.so
+[1.060s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller
+[1.060s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller
+[1.060s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/validate_my_position_controller_parameters.hpp
+[1.061s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/my_position_controller.hpp
+[1.061s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/visibility_control.h
+[1.061s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/library_path.sh
+[1.061s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/library_path.dsv
+[1.062s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/package_run_dependencies/my_position_controller
+[1.062s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/parent_prefix_path/my_position_controller
+[1.062s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/ament_prefix_path.sh
+[1.062s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/ament_prefix_path.dsv
+[1.063s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/path.sh
+[1.063s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/path.dsv
+[1.063s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.bash
+[1.064s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.sh
+[1.064s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.zsh
+[1.064s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.dsv
+[1.064s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.dsv
+[1.064s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/packages/my_position_controller
+[1.065s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/my_position_controller
+[1.065s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.065s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.065s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.065s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/my_position_controllerConfig.cmake
+[1.065s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/my_position_controllerConfig-version.cmake
+[1.066s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.xml
+[1.104s] Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_position_controller

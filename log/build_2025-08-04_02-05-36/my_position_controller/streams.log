@@ -1,0 +1,96 @@
+[0.097s] Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+[0.313s] [ 50%] Built target my_position_controller_parameters
+[0.358s] [35m[1mConsolidate compiler generated dependencies of target my_position_controller[0m
+[0.406s] [ 75%] [32mBuilding CXX object CMakeFiles/my_position_controller.dir/src/my_position_controller.cpp.o[0m
+[6.495s] In file included from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.495s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.495s] [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:1:169:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "my_position_controller_parameters.hpp" is deprecated. Use #include <my_position_controller/my_position_controller_parameters.hpp> instead.[m[K’
+[6.495s]     1 | clude \"my_position_controller_parameters.hpp\" is deprecated. Use #include <my_position_controller/my_position_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[6.495s]       |                                                                                                                                                     [01;36m[K^[m[K
+[6.495s] 
+[6.655s] In file included from [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:31[m[K,
+[6.655s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.655s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.655s] [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/validate_my_position_controller_parameters.hpp:24:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.655s]    24 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[6.655s]       |                                                                           [01;35m[K^[m[K
+[6.656s] In file included from [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:25[m[K,
+[6.656s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.656s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.656s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.656s]    37 | using [01;36m[KResult[m[K
+[6.656s]       |       [01;36m[K^~~~~~[m[K
+[6.659s] In file included from [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:31[m[K,
+[6.659s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.659s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.660s] [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/validate_my_position_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[6.660s] [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/validate_my_position_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.660s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[6.660s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.660s] In file included from [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:25[m[K,
+[6.660s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.660s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.660s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.661s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[6.661s]       | [01;36m[K^~~~~[m[K
+[6.661s] In file included from [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:31[m[K,
+[6.661s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.661s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.661s] [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/validate_my_position_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.661s]    33 |   return [01;35m[KOK[m[K;
+[6.661s]       |          [01;35m[K^~[m[K
+[6.661s] In file included from [01m[K/home/gbb/rrbot_ws/build/my_position_controller/include/my_position_controller_parameters.hpp:25[m[K,
+[6.661s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:23[m[K,
+[6.661s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.661s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.661s]    51 | auto static [01;36m[KOK[m[K
+[6.661s]       |             [01;36m[K^~[m[K
+[6.699s] In file included from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:27[m[K,
+[6.699s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.699s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[6.699s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[6.699s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[6.700s]       |                                                                                                    [01;36m[K^[m[K
+[6.701s] In file included from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/include/my_position_controller/my_position_controller.hpp:28[m[K,
+[6.701s]                  from [01m[K/home/gbb/rrbot_ws/src/my_position_controller/src/my_position_controller.cpp:15[m[K:
+[6.701s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[6.701s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[6.701s]       |                                                                                                       [01;36m[K^[m[K
+[20.807s] [100%] [32m[1mLinking CXX shared library libmy_position_controller.so[0m
+[21.757s] [100%] Built target my_position_controller
+[21.772s] Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+[21.773s] Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_position_controller
+[21.783s] -- Install configuration: ""
+[21.783s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller
+[21.783s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/validate_my_position_controller_parameters.hpp
+[21.785s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller_parameters.hpp
+[21.785s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/my_position_controller.xml
+[21.785s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/lib/libmy_position_controller.so
+[21.797s] -- Set runtime path of "/home/gbb/rrbot_ws/install/my_position_controller/lib/libmy_position_controller.so" to ""
+[21.798s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller
+[21.799s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller
+[21.799s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/validate_my_position_controller_parameters.hpp
+[21.799s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/my_position_controller.hpp
+[21.799s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/visibility_control.h
+[21.800s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/library_path.sh
+[21.800s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/library_path.dsv
+[21.801s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/package_run_dependencies/my_position_controller
+[21.803s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/parent_prefix_path/my_position_controller
+[21.804s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/ament_prefix_path.sh
+[21.804s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/ament_prefix_path.dsv
+[21.805s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/path.sh
+[21.805s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/path.dsv
+[21.806s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.bash
+[21.807s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.sh
+[21.808s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.zsh
+[21.808s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.dsv
+[21.809s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.dsv
+[21.810s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/packages/my_position_controller
+[21.810s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/my_position_controller
+[21.811s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.812s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.814s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[21.815s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/my_position_controllerConfig.cmake
+[21.817s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/my_position_controllerConfig-version.cmake
+[21.817s] -- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.xml
+[21.827s] Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_position_controller

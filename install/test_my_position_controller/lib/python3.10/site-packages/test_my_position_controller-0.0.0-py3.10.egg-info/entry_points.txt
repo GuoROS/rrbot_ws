@@ -1,0 +1,4 @@
+[console_scripts]
+rrobot_position_pub = test_my_position_controller.rrobot_position_pub:main
+rrobot_position_sub = test_my_position_controller.rrobot_position_sub:main
+

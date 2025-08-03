@@ -109,25 +109,25 @@ controller_interface::CallbackReturn MyPositionController::on_configure(
   reset_controller_reference_msg(msg, params_.joints);
   input_ref_.writeFromNonRT(msg);
 
-  auto set_slow_mode_service_callback =
-    [&](
-      const std::shared_ptr<ControllerModeSrvType::Request> request,
-      std::shared_ptr<ControllerModeSrvType::Response> response)
-  {
-    if (request->data)
-    {
-      control_mode_.writeFromNonRT(control_mode_type::SLOW);
-    }
-    else
-    {
-      control_mode_.writeFromNonRT(control_mode_type::FAST);
-    }
-    response->success = true;
-  };
+  // auto set_slow_mode_service_callback =
+  //   [&](
+  //     const std::shared_ptr<ControllerModeSrvType::Request> request,
+  //     std::shared_ptr<ControllerModeSrvType::Response> response)
+  // {
+  //   if (request->data)
+  //   {
+  //     control_mode_.writeFromNonRT(control_mode_type::SLOW);
+  //   }
+  //   else
+  //   {
+  //     control_mode_.writeFromNonRT(control_mode_type::FAST);
+  //   }
+  //   response->success = true;
+  // };
 
-  set_slow_control_mode_service_ = get_node()->create_service<ControllerModeSrvType>(
-    "~/set_slow_control_mode", set_slow_mode_service_callback,
-    rmw_qos_profile_services_hist_keep_all);
+  // set_slow_control_mode_service_ = get_node()->create_service<ControllerModeSrvType>(
+  //   "~/set_slow_control_mode", set_slow_mode_service_callback,
+  //   rmw_qos_profile_services_hist_keep_all);
 
   try
   {
@@ -145,9 +145,9 @@ controller_interface::CallbackReturn MyPositionController::on_configure(
   }
 
   // TODO(anyone): Reserve memory in state publisher depending on the message type
-  state_publisher_->lock();
-  state_publisher_->msg_.header.frame_id = params_.joints[0];
-  state_publisher_->unlock();
+  // state_publisher_->lock();
+  // state_publisher_->msg_.header.frame_id = params_.joints[0];
+  // state_publisher_->unlock();
 
   RCLCPP_INFO(get_node()->get_logger(), "configure successful");
   return controller_interface::CallbackReturn::SUCCESS;
@@ -232,10 +232,10 @@ controller_interface::return_type MyPositionController::update(
   {
     if (!std::isnan((*current_ref)->displacements[i]))
     {
-      if (*(control_mode_.readFromRT()) == control_mode_type::SLOW)
-      {
-        (*current_ref)->displacements[i] /= 2;
-      }
+      // if (*(control_mode_.readFromRT()) == control_mode_type::SLOW)
+      // {
+      //   (*current_ref)->displacements[i] /= 2;
+      // }
       command_interfaces_[i].set_value((*current_ref)->displacements[i]);
 
       (*current_ref)->displacements[i] = std::numeric_limits<double>::quiet_NaN();
@@ -244,8 +244,20 @@ controller_interface::return_type MyPositionController::update(
 
   if (state_publisher_ && state_publisher_->trylock())
   {
+    // state_publisher_->msg_.header.stamp = time;
+    // state_publisher_->msg_.set_point = command_interfaces_[CMD_MY_ITFS].get_value();
+    // state_publisher_->unlockAndPublish();
+    state_publisher_->msg_.joint_names.clear(); //发布前清空数据
+    state_publisher_->msg_.displacements.clear();
+
+    for (size_t i = 0; i < state_interfaces_.size(); ++i)
+    {
+      state_publisher_->msg_.joint_names.push_back(state_interfaces_[i].get_name());
+      state_publisher_->msg_.displacements.push_back(state_interfaces_[i].get_value());
+
+    }
+
     state_publisher_->msg_.header.stamp = time;
-    state_publisher_->msg_.set_point = command_interfaces_[CMD_MY_ITFS].get_value();
     state_publisher_->unlockAndPublish();
   }
 

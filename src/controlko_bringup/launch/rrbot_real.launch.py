@@ -59,8 +59,8 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "robot_controller",
-            default_value="forward_position_controller", #forward_position_controller为简单测试， joint_trajectory_controller含有轨迹控制算法
-            choices=["forward_position_controller", "joint_trajectory_controller"],
+            default_value="my_controller", #forward_position_controller为简单测试， joint_trajectory_controller含有轨迹控制算法
+            choices=["forward_position_controller", "joint_trajectory_controller", "my_controller"],
             description="Robot controller to start.",
         )
     )

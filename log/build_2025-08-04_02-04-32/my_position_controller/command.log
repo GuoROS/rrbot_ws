@@ -1,0 +1,4 @@
+Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gbb/rrbot_ws/src/my_position_controller -DCMAKE_INSTALL_PREFIX=/home/gbb/rrbot_ws/install/my_position_controller
+Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gbb/rrbot_ws/src/my_position_controller -DCMAKE_INSTALL_PREFIX=/home/gbb/rrbot_ws/install/my_position_controller
+Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8

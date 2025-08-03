@@ -1,0 +1,37 @@
+[0.092s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_hardware_interface -- -j8 -l8
+[0.386s] [ 33%] Built target gmock
+[0.407s] [ 55%] Built target controlko_hardware_interface
+[0.420s] [ 77%] Built target gmock_main
+[0.525s] [100%] Built target test_rrbot_hardware_interface
+[1.037s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_hardware_interface -- -j8 -l8
+[1.038s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_hardware_interface
+[1.108s] -- Install configuration: ""
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/controlko_hardware_interface.xml
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/lib/libcontrolko_hardware_interface.so
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/include
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface/rrbot_hardware_interface.hpp
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface/visibility_control.h
+[1.109s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface/dr_denis_rrbot_comms.hpp
+[1.112s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/library_path.sh
+[1.112s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/library_path.dsv
+[1.112s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/package_run_dependencies/controlko_hardware_interface
+[1.113s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/parent_prefix_path/controlko_hardware_interface
+[1.113s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/ament_prefix_path.sh
+[1.113s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/ament_prefix_path.dsv
+[1.114s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/path.sh
+[1.115s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/path.dsv
+[1.115s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.bash
+[1.119s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.sh
+[1.121s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.zsh
+[1.123s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.dsv
+[1.123s] -- Installing: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.dsv
+[1.123s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/packages/controlko_hardware_interface
+[1.123s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/controlko_hardware_interface
+[1.124s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.124s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.124s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.124s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/controlko_hardware_interfaceConfig.cmake
+[1.124s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/controlko_hardware_interfaceConfig-version.cmake
+[1.124s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.xml
+[1.379s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_hardware_interface

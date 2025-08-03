@@ -1,0 +1,4 @@
+Invoking command in '/home/gbb/rrbot_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/forward_command_controller -- -j8 -l8
+Invoked command in '/home/gbb/rrbot_ws/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/forward_command_controller -- -j8 -l8
+Invoking command in '/home/gbb/rrbot_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/forward_command_controller
+Invoked command in '/home/gbb/rrbot_ws/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/forward_command_controller

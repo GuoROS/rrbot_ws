@@ -14,6 +14,18 @@ controller_manager:
     displacement_controller:
       type: displacement_controller/DisplacementController
 
+    my_controller:
+      type: my_position_controller/MyPositionController
+
+
+my_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+    interface_name: position
+
+
 
 forward_position_controller:
   ros__parameters:

@@ -1,0 +1,38 @@
+[ 50%] Built target my_position_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target my_position_controller[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/my_position_controller.dir/src/my_position_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmy_position_controller.so[0m
+[100%] Built target my_position_controller
+-- Install configuration: ""
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/validate_my_position_controller_parameters.hpp
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller_parameters.hpp
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/my_position_controller.xml
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/lib/libmy_position_controller.so
+-- Set runtime path of "/home/gbb/rrbot_ws/install/my_position_controller/lib/libmy_position_controller.so" to ""
+-- Up-to-date: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/validate_my_position_controller_parameters.hpp
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/my_position_controller.hpp
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/include/my_position_controller/my_position_controller/visibility_control.h
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/library_path.sh
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/library_path.dsv
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/package_run_dependencies/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/parent_prefix_path/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/ament_prefix_path.sh
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/path.sh
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/environment/path.dsv
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.bash
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.sh
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.zsh
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/local_setup.dsv
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.dsv
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/packages/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/my_position_controller
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/my_position_controllerConfig.cmake
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/cmake/my_position_controllerConfig-version.cmake
+-- Installing: /home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.xml

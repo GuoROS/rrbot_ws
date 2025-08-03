@@ -43,3 +43,13 @@
 - 按频率定时调用 读取和写入
 - read读取硬件数据，放入到StateInterface类
 - write读取改变好的 CommandInterface的值，写入到硬件
+
+
+## hardware_interface 编写
+- 使用ros_worktospace 生成hardware_interface的模板，注意使用bash终端source
+``` bash 
+ros2_control_setup-hardware-interface-package FILE_NAME [CLASS_NAME] 
+```
+- 编写rrbot_hardware_interface.cpp文件中 on_init() on_configure() export_state_interfaces()等函数
+- 编译和使用
+- 因为不再使用gazebo，所以不会自动生成controller manager , 需要重新编写，并将launch中的gazebo内容删除

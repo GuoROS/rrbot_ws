@@ -64,6 +64,9 @@ public:
 private:
   std::vector<double> hw_commands_;
   std::vector<double> hw_states_;
+
+  std::vector<double> joint_states_;
+
 };
 
 }  // namespace my_hardware_interface

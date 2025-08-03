@@ -30,7 +30,7 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_init(
   }
 
   // TODO(anyone): read parameters and initialize the hardware
-  hw_states_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+  hw_states_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN()); //长度为2的joint数量，如需添加state和command则需要再添加
   hw_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
 
   return CallbackReturn::SUCCESS;
@@ -40,6 +40,7 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_configure(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
   // TODO(anyone): prepare the robot to be ready for read calls and write calls of some interfaces
+  joint_states_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
 
   return CallbackReturn::SUCCESS;
 }
@@ -49,9 +50,11 @@ std::vector<hardware_interface::StateInterface> RRBotHardwareInterface::export_s
   std::vector<hardware_interface::StateInterface> state_interfaces;
   for (size_t i = 0; i < info_.joints.size(); ++i)
   {
+    hw_states_[i]= stod(info_.joints[i].state_interfaces[0].initial_value); //将初始值赋值给hw_states
+    // info_.joints[i].state_interfaces[0].initial_value
     state_interfaces.emplace_back(hardware_interface::StateInterface(
       // TODO(anyone): insert correct interfaces
-      info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_states_[i]));
+      info_.joints[i].name, info_.joints[i].state_interfaces[0].name, &hw_states_[i]));//改为info获取
   }
 
   return state_interfaces;
@@ -74,7 +77,8 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_activate(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
   // TODO(anyone): prepare the robot to receive commands
-
+  hw_commands_ = hw_states_; //将当前状态赋值给命令
+  joint_states_ = hw_states_; //j机器人实际的数据
   return CallbackReturn::SUCCESS;
 }
 
@@ -90,7 +94,12 @@ hardware_interface::return_type RRBotHardwareInterface::read(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
 {
   // TODO(anyone): read robot states
+  hw_states_ = joint_states_; //将机器人当前状态赋值给hw_states_
 
+  printf("我来了我是 read");
+  for (auto i = 0ul; i < hw_states_.size(); i++){
+    printf("%f\n", hw_states_[i]);
+  } 
   return hardware_interface::return_type::OK;
 }
 
@@ -98,7 +107,12 @@ hardware_interface::return_type RRBotHardwareInterface::write(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
 {
   // TODO(anyone): write robot's commands'
+  joint_states_ = hw_commands_; //真实机器的话将这一步改成传递给机器的代码
 
+  printf("我来了我是 write");
+  for (auto i = 0ul; i < hw_commands_.size(); i++){
+    printf("%f\n", hw_commands_[i]);
+  } 
   return hardware_interface::return_type::OK;
 }
 

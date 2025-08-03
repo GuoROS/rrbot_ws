@@ -53,3 +53,12 @@ ros2_control_setup-hardware-interface-package FILE_NAME [CLASS_NAME]
 - 编写rrbot_hardware_interface.cpp文件中 on_init() on_configure() export_state_interfaces()等函数
 - 编译和使用: 因为不再使用gazebo，所以不会自动生成controller manager , 需要重新编写，并将launch中的gazebo内容删除
 - 如果需要控制实际的joint，则将数组【】的部分改为实际控制硬件的代码
+
+
+
+
+## controller 编写
+```bash
+ros2_control_setup-controller-package FILE_NAME [CLASS_NAME]
+
+```

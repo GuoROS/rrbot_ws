@@ -1,2 +1,0 @@
-Invoking command in '/home/gbb/rrbot_ws/build/my_hardware_interface': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-Invoked command in '/home/gbb/rrbot_ws/build/my_hardware_interface' returned '8': /usr/bin/ctest -C RelWithDebInfo -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

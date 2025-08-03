@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/gbb/rrbot_ws/my_hardware_interface':
- - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/gbb/rrbot_ws/build/my_hardware_interface/test_results/my_hardware_interface/cppcheck.xunit.xml --include_dirs /home/gbb/rrbot_ws/my_hardware_interface/include
-
-cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/gbb/rrbot_ws/build/my_hardware_interface/test_results/my_hardware_interface/cppcheck.xunit.xml'

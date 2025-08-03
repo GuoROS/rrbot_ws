@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/gbb/rrbot_ws/build/my_hardware_interface/libmy_hardware_interface.so" "TARGETS" "my_hardware_interface" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

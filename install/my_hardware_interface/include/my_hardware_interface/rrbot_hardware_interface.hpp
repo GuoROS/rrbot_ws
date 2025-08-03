@@ -1,1 +1,0 @@
-/home/gbb/rrbot_ws/my_hardware_interface/include/my_hardware_interface/rrbot_hardware_interface.hpp

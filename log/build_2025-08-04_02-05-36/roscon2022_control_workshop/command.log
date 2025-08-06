@@ -1,4 +1,0 @@
-Invoking command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/roscon2022_control_workshop -- -j8 -l8
-Invoked command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/roscon2022_control_workshop -- -j8 -l8
-Invoking command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/roscon2022_control_workshop
-Invoked command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/roscon2022_control_workshop

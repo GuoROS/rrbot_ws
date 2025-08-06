@@ -1,0 +1,681 @@
+[0.327s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.327s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75b2bb054400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75b2bb017eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75b2bb017eb0>>)
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.651s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gbb/rrbot_ws'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_bringup) by extension 'ros'
+[0.666s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlko_bringup' with type 'ros.ament_cmake' and name 'controlko_bringup'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_controllers) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlko_controllers' with type 'ros.ament_cmake' and name 'controlko_controllers'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_description) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlko_description' with type 'ros.ament_cmake' and name 'controlko_description'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlko_hardware_interface) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlko_hardware_interface' with type 'ros.ament_cmake' and name 'controlko_hardware_interface'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/forward_command_controller) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/forward_command_controller' with type 'ros.ament_cmake' and name 'forward_command_controller'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_hardware_interface) by extension 'ros'
+[0.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_hardware_interface' with type 'ros.ament_cmake' and name 'my_hardware_interface'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extensions ['colcon_pkg']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extension 'colcon_pkg'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extension 'colcon_meta'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extensions ['ros']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_position_controller) by extension 'ros'
+[0.676s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_position_controller' with type 'ros.ament_cmake' and name 'my_position_controller'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscon2022_control_workshop) by extension 'ros'
+[0.677s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roscon2022_control_workshop' with type 'ros.ament_cmake' and name 'roscon2022_control_workshop'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extension 'ignore'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extensions ['colcon_pkg']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extension 'colcon_meta'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extensions ['ros']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_my_position_controller) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_my_position_controller' with type 'ros.ament_python' and name 'test_my_position_controller'
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.734s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.781s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'forward_command_controller' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding forward_command_controller
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'cmake_target' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'controlko_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/controlko_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/controlko_controllers', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/controlko_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'controlko_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'controlko_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/controlko_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/controlko_description', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/controlko_description', 'symlink_install': False, 'test_result_base': None}
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'controlko_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.784s] DEBUG:colcon.colcon_core.verb:Building package 'controlko_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/controlko_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/controlko_hardware_interface', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/controlko_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.784s] DEBUG:colcon.colcon_core.verb:Building package 'forward_command_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/forward_command_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/forward_command_controller', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/forward_command_controller', 'symlink_install': False, 'test_result_base': None}
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'my_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/my_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/my_hardware_interface', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/my_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'cmake_target' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'my_position_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.786s] DEBUG:colcon.colcon_core.verb:Building package 'my_position_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/my_position_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/my_position_controller', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/my_position_controller', 'symlink_install': False, 'test_result_base': None}
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'cmake_target' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'cmake_clean_first' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'cmake_force_configure' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'ament_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'roscon2022_control_workshop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.786s] DEBUG:colcon.colcon_core.verb:Building package 'roscon2022_control_workshop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/roscon2022_control_workshop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/roscon2022_control_workshop', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/roscon2022_control_workshop', 'symlink_install': False, 'test_result_base': None}
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'cmake_target' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'test_my_position_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.787s] DEBUG:colcon.colcon_core.verb:Building package 'test_my_position_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/test_my_position_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/test_my_position_controller', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/test_my_position_controller', 'symlink_install': False, 'test_result_base': None}
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'cmake_target' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'controlko_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.787s] DEBUG:colcon.colcon_core.verb:Building package 'controlko_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gbb/rrbot_ws/build/controlko_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gbb/rrbot_ws/install/controlko_bringup', 'merge_install': False, 'path': '/home/gbb/rrbot_ws/src/controlko_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.787s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.789s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/controlko_description' with build type 'ament_cmake'
+[0.789s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/controlko_description'
+[0.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.806s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/forward_command_controller' with build type 'ament_cmake'
+[0.807s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/forward_command_controller'
+[0.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.812s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/controlko_controllers' with build type 'ament_cmake'
+[0.812s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/controlko_controllers'
+[0.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.817s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/controlko_hardware_interface' with build type 'ament_cmake'
+[0.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/controlko_hardware_interface'
+[0.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/my_hardware_interface' with build type 'ament_cmake'
+[0.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/my_hardware_interface'
+[0.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/my_position_controller' with build type 'ament_cmake'
+[0.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/my_position_controller'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/roscon2022_control_workshop' with build type 'ament_cmake'
+[0.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/roscon2022_control_workshop'
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.835s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gbb/rrbot_ws/src/test_my_position_controller' with build type 'ament_python'
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_my_position_controller', 'ament_prefix_path')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/hook/ament_prefix_path.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/hook/ament_prefix_path.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/hook/ament_prefix_path.sh'
+[0.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_description -- -j8 -l8
+[0.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/forward_command_controller -- -j8 -l8
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_controllers -- -j8 -l8
+[0.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_hardware_interface -- -j8 -l8
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/my_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_hardware_interface -- -j8 -l8
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/roscon2022_control_workshop -- -j8 -l8
+[1.364s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gbb/rrbot_ws/src/test_my_position_controller'
+[1.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_hardware_interface -- -j8 -l8
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_hardware_interface
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_controllers -- -j8 -l8
+[1.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_controllers
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_description -- -j8 -l8
+[1.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_description
+[1.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/roscon2022_control_workshop -- -j8 -l8
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/roscon2022_control_workshop
+[1.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/my_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_hardware_interface -- -j8 -l8
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/my_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_hardware_interface
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/forward_command_controller -- -j8 -l8
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/forward_command_controller
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_position_controller -- -j8 -l8
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/my_position_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_position_controller
+[1.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_hardware_interface)
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_hardware_interface
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface' for CMake module files
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_hardware_interface', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/cmake_prefix_path.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/lib'
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_hardware_interface', 'ld_library_path_lib')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/ld_library_path_lib.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/bin'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/lib/pkgconfig/controlko_hardware_interface.pc'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/lib/python3.10/site-packages'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/bin'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.sh'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.bash'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/colcon-core/packages/controlko_hardware_interface)
+[1.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_hardware_interface)
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface' for CMake module files
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface' for CMake config files
+[1.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_hardware_interface', 'cmake_prefix_path')
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/cmake_prefix_path.sh'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/lib'
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_hardware_interface', 'ld_library_path_lib')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/hook/ld_library_path_lib.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/bin'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/lib/pkgconfig/controlko_hardware_interface.pc'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/lib/python3.10/site-packages'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_hardware_interface/bin'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.bash'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.zsh'
+[1.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_hardware_interface/share/colcon-core/packages/controlko_hardware_interface)
+[1.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_controllers)
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers' for CMake module files
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers' for CMake config files
+[1.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_controllers
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_controllers', 'cmake_prefix_path')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/cmake_prefix_path.dsv'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/cmake_prefix_path.sh'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/lib'
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_controllers', 'ld_library_path_lib')
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/ld_library_path_lib.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/ld_library_path_lib.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/ld_library_path_lib.sh'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/bin'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/lib/pkgconfig/controlko_controllers.pc'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/lib/python3.10/site-packages'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/bin'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.bash'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.zsh'
+[1.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_controllers/share/colcon-core/packages/controlko_controllers)
+[1.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_controllers)
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers' for CMake module files
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers' for CMake config files
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_controllers', 'cmake_prefix_path')
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/cmake_prefix_path.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/cmake_prefix_path.dsv'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/cmake_prefix_path.sh'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/lib'
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_controllers', 'ld_library_path_lib')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/ld_library_path_lib.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/ld_library_path_lib.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/hook/ld_library_path_lib.sh'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/bin'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/lib/pkgconfig/controlko_controllers.pc'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/lib/python3.10/site-packages'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_controllers/bin'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.sh'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.bash'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.zsh'
+[1.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_controllers/share/colcon-core/packages/controlko_controllers)
+[1.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roscon2022_control_workshop)
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop' for CMake module files
+[1.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/roscon2022_control_workshop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/roscon2022_control_workshop
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop' for CMake config files
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('roscon2022_control_workshop', 'cmake_prefix_path')
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/hook/cmake_prefix_path.ps1'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/hook/cmake_prefix_path.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/hook/cmake_prefix_path.sh'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/bin'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/lib/pkgconfig/roscon2022_control_workshop.pc'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/lib/python3.10/site-packages'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/bin'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.sh'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.bash'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.zsh'
+[1.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/colcon-core/packages/roscon2022_control_workshop)
+[1.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roscon2022_control_workshop)
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop' for CMake module files
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop' for CMake config files
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('roscon2022_control_workshop', 'cmake_prefix_path')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/hook/cmake_prefix_path.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/hook/cmake_prefix_path.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/hook/cmake_prefix_path.sh'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/lib/pkgconfig/roscon2022_control_workshop.pc'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/lib/python3.10/site-packages'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/bin'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.bash'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/roscon2022_control_workshop/package.zsh'
+[1.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/roscon2022_control_workshop/share/colcon-core/packages/roscon2022_control_workshop)
+[1.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_hardware_interface)
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface' for CMake module files
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/my_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_hardware_interface
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface' for CMake config files
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_hardware_interface', 'cmake_prefix_path')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/lib'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_hardware_interface', 'ld_library_path_lib')
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/ld_library_path_lib.sh'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/bin'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/lib/pkgconfig/my_hardware_interface.pc'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/lib/python3.10/site-packages'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/bin'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.dsv'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.sh'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.bash'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.zsh'
+[1.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/my_hardware_interface/share/colcon-core/packages/my_hardware_interface)
+[1.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_hardware_interface)
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface' for CMake module files
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface' for CMake config files
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_hardware_interface', 'cmake_prefix_path')
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/cmake_prefix_path.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/cmake_prefix_path.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/cmake_prefix_path.sh'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/lib'
+[1.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_hardware_interface', 'ld_library_path_lib')
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/hook/ld_library_path_lib.sh'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/lib/pkgconfig/my_hardware_interface.pc'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/lib/python3.10/site-packages'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_hardware_interface/bin'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.sh'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.bash'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.zsh'
+[1.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/my_hardware_interface/share/colcon-core/packages/my_hardware_interface)
+[1.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(forward_command_controller)
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller' for CMake module files
+[1.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/forward_command_controller
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller' for CMake config files
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('forward_command_controller', 'cmake_prefix_path')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/cmake_prefix_path.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/cmake_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/cmake_prefix_path.sh'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/lib'
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('forward_command_controller', 'ld_library_path_lib')
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/ld_library_path_lib.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/ld_library_path_lib.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/ld_library_path_lib.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/lib/pkgconfig/forward_command_controller.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/lib/python3.10/site-packages'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.sh'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.bash'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.zsh'
+[1.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/forward_command_controller/share/colcon-core/packages/forward_command_controller)
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(forward_command_controller)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller' for CMake module files
+[1.577s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller' for CMake config files
+[1.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('forward_command_controller', 'cmake_prefix_path')
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/cmake_prefix_path.ps1'
+[1.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/cmake_prefix_path.dsv'
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/cmake_prefix_path.sh'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/lib'
+[1.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('forward_command_controller', 'ld_library_path_lib')
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/ld_library_path_lib.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/ld_library_path_lib.dsv'
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/hook/ld_library_path_lib.sh'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/bin'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/lib/pkgconfig/forward_command_controller.pc'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/lib/python3.10/site-packages'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/forward_command_controller/bin'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.dsv'
+[1.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.sh'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.bash'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/forward_command_controller/share/forward_command_controller/package.zsh'
+[1.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/forward_command_controller/share/colcon-core/packages/forward_command_controller)
+[1.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_description)
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description' for CMake module files
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_description
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description' for CMake config files
+[1.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_description', 'cmake_prefix_path')
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/hook/cmake_prefix_path.ps1'
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/hook/cmake_prefix_path.dsv'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/hook/cmake_prefix_path.sh'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/bin'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/lib/pkgconfig/controlko_description.pc'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/lib/python3.10/site-packages'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/bin'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.sh'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.zsh'
+[1.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_description/share/colcon-core/packages/controlko_description)
+[1.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_description)
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description' for CMake module files
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description' for CMake config files
+[1.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_description', 'cmake_prefix_path')
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/hook/cmake_prefix_path.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/hook/cmake_prefix_path.dsv'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/hook/cmake_prefix_path.sh'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/bin'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/lib/pkgconfig/controlko_description.pc'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/lib/python3.10/site-packages'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_description/bin'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.dsv'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.sh'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.bash'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_description/share/controlko_description/package.zsh'
+[1.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_description/share/colcon-core/packages/controlko_description)
+[1.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gbb/rrbot_ws/src/controlko_bringup' with build type 'ament_cmake'
+[1.612s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gbb/rrbot_ws/src/controlko_bringup'
+[1.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_position_controller)
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller' for CMake module files
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller' for CMake config files
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/my_position_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_position_controller
+[1.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_position_controller', 'cmake_prefix_path')
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/cmake_prefix_path.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/cmake_prefix_path.dsv'
+[1.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/cmake_prefix_path.sh'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/lib'
+[1.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_position_controller', 'ld_library_path_lib')
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/ld_library_path_lib.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/ld_library_path_lib.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/ld_library_path_lib.sh'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/bin'
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/lib/pkgconfig/my_position_controller.pc'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/lib/python3.10/site-packages'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/bin'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.ps1'
+[1.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.dsv'
+[1.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.sh'
+[1.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.bash'
+[1.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.zsh'
+[1.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/my_position_controller/share/colcon-core/packages/my_position_controller)
+[1.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_position_controller)
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller' for CMake module files
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller' for CMake config files
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_position_controller', 'cmake_prefix_path')
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/cmake_prefix_path.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/cmake_prefix_path.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/cmake_prefix_path.sh'
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/lib'
+[1.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_position_controller', 'ld_library_path_lib')
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/ld_library_path_lib.ps1'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/ld_library_path_lib.dsv'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/hook/ld_library_path_lib.sh'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/bin'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/lib/pkgconfig/my_position_controller.pc'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/lib/python3.10/site-packages'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/my_position_controller/bin'
+[1.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.sh'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.bash'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/my_position_controller/share/my_position_controller/package.zsh'
+[1.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/my_position_controller/share/colcon-core/packages/my_position_controller)
+[1.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_bringup': AMENT_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:/opt/ros/humble LD_LIBRARY_PATH=/home/gbb/rrbot_ws/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_bringup -- -j8 -l8
+[1.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_bringup' returned '0': AMENT_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:/opt/ros/humble LD_LIBRARY_PATH=/home/gbb/rrbot_ws/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_bringup -- -j8 -l8
+[1.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/build/controlko_bringup': AMENT_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:/opt/ros/humble LD_LIBRARY_PATH=/home/gbb/rrbot_ws/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_bringup
+[1.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_bringup)
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup' for CMake module files
+[1.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/build/controlko_bringup' returned '0': AMENT_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gbb/rrbot_ws/install/forward_command_controller:/home/gbb/rrbot_ws/install/controlko_description:/opt/ros/humble LD_LIBRARY_PATH=/home/gbb/rrbot_ws/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_bringup
+[1.737s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup' for CMake config files
+[1.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_bringup', 'cmake_prefix_path')
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/hook/cmake_prefix_path.ps1'
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/hook/cmake_prefix_path.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/hook/cmake_prefix_path.sh'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/bin'
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/lib/pkgconfig/controlko_bringup.pc'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/lib/python3.10/site-packages'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/bin'
+[1.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.dsv'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.sh'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.bash'
+[1.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.zsh'
+[1.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_bringup/share/colcon-core/packages/controlko_bringup)
+[1.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlko_bringup)
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup' for CMake module files
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup' for CMake config files
+[1.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlko_bringup', 'cmake_prefix_path')
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/hook/cmake_prefix_path.ps1'
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/hook/cmake_prefix_path.dsv'
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/hook/cmake_prefix_path.sh'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/bin'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/lib/pkgconfig/controlko_bringup.pc'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/lib/python3.10/site-packages'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/controlko_bringup/bin'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.sh'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.bash'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/controlko_bringup/share/controlko_bringup/package.zsh'
+[1.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/controlko_bringup/share/colcon-core/packages/controlko_bringup)
+[2.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gbb/rrbot_ws/src/test_my_position_controller': PYTHONPATH=/home/gbb/rrbot_ws/build/test_my_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gbb/rrbot_ws/install/test_my_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_my_position_controller build --build-base /home/gbb/rrbot_ws/build/test_my_position_controller/build install --record /home/gbb/rrbot_ws/build/test_my_position_controller/install.log --single-version-externally-managed install_data
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller' for CMake module files
+[2.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gbb/rrbot_ws/src/test_my_position_controller' returned '0': PYTHONPATH=/home/gbb/rrbot_ws/build/test_my_position_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gbb/rrbot_ws/install/test_my_position_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_my_position_controller build --build-base /home/gbb/rrbot_ws/build/test_my_position_controller/build install --record /home/gbb/rrbot_ws/build/test_my_position_controller/install.log --single-version-externally-managed install_data
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller' for CMake config files
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller/lib'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller/bin'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller/lib/pkgconfig/test_my_position_controller.pc'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller/lib/python3.10/site-packages'
+[2.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_my_position_controller', 'pythonpath')
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/hook/pythonpath.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/hook/pythonpath.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/hook/pythonpath.sh'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/gbb/rrbot_ws/install/test_my_position_controller/bin'
+[2.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_my_position_controller)
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/package.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/package.dsv'
+[2.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/package.sh'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/package.bash'
+[2.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/gbb/rrbot_ws/install/test_my_position_controller/share/test_my_position_controller/package.zsh'
+[2.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gbb/rrbot_ws/install/test_my_position_controller/share/colcon-core/packages/test_my_position_controller)
+[2.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.446s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.453s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.463s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gbb/rrbot_ws/install/local_setup.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gbb/rrbot_ws/install/_local_setup_util_ps1.py'
+[2.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gbb/rrbot_ws/install/setup.ps1'
+[2.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gbb/rrbot_ws/install/local_setup.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gbb/rrbot_ws/install/_local_setup_util_sh.py'
+[2.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gbb/rrbot_ws/install/setup.sh'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gbb/rrbot_ws/install/local_setup.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gbb/rrbot_ws/install/setup.bash'
+[2.471s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gbb/rrbot_ws/install/local_setup.zsh'
+[2.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gbb/rrbot_ws/install/setup.zsh'

@@ -18,10 +18,7 @@ class RRBotPositionPublisher(Node):
         for i in range(0,2):
             self.get_logger().info(f"{msg.joint_names[i]}:{msg.displacements[i]}")
         self.get_logger().info('-----------------------')
-    # def timer_callback(self):
-    #     self.msg.displacements = self.datas[self.i % 4]
-    #     self.i += 1
-    #     self.postion_publisher.publish(self.msg)
+
 
 
 def main(args=None):

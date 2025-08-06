@@ -1,6 +1,0 @@
-Invoking command in '/home/gbb/rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gbb/rrbot_ws/src/controlko_description -DCMAKE_INSTALL_PREFIX=/home/gbb/rrbot_ws/install/controlko_description
-Invoked command in '/home/gbb/rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/gbb/rrbot_ws/src/controlko_description -DCMAKE_INSTALL_PREFIX=/home/gbb/rrbot_ws/install/controlko_description
-Invoking command in '/home/gbb/rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_description -- -j8 -l8
-Invoked command in '/home/gbb/rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_description -- -j8 -l8
-Invoking command in '/home/gbb/rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_description
-Invoked command in '/home/gbb/rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_description

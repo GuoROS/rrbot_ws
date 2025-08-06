@@ -1,0 +1,40 @@
+[0.047s] Invoking command in '/home/gbb/rrbot_ws/build/my_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_hardware_interface -- -j8 -l8
+[0.564s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.564s] [35m[1mConsolidate compiler generated dependencies of target my_hardware_interface[0m
+[0.564s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.564s] [ 33%] Built target gmock
+[0.564s] [ 55%] Built target my_hardware_interface
+[0.564s] [ 77%] Built target gmock_main
+[0.564s] [35m[1mConsolidate compiler generated dependencies of target test_rrbot_hardware_interface[0m
+[0.564s] [100%] Built target test_rrbot_hardware_interface
+[0.600s] Invoked command in '/home/gbb/rrbot_ws/build/my_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/my_hardware_interface -- -j8 -l8
+[0.608s] Invoking command in '/home/gbb/rrbot_ws/build/my_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_hardware_interface
+[0.630s] -- Install configuration: ""
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/my_hardware_interface.xml
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/lib/libmy_hardware_interface.so
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/include
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/include/my_hardware_interface
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/include/my_hardware_interface/rrbot_hardware_interface.hpp
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/include/my_hardware_interface/visibility_control.h
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/environment/library_path.sh
+[0.631s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/environment/library_path.dsv
+[0.632s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/ament_index/resource_index/package_run_dependencies/my_hardware_interface
+[0.632s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/ament_index/resource_index/parent_prefix_path/my_hardware_interface
+[0.632s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/environment/ament_prefix_path.sh
+[0.632s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/environment/ament_prefix_path.dsv
+[0.632s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/environment/path.sh
+[0.632s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/environment/path.dsv
+[0.633s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/local_setup.bash
+[0.633s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/local_setup.sh
+[0.633s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/local_setup.zsh
+[0.633s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/local_setup.dsv
+[0.633s] -- Installing: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.dsv
+[0.633s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/ament_index/resource_index/packages/my_hardware_interface
+[0.633s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/my_hardware_interface
+[0.634s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.634s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.634s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.634s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/cmake/my_hardware_interfaceConfig.cmake
+[0.635s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/cmake/my_hardware_interfaceConfig-version.cmake
+[0.635s] -- Up-to-date: /home/gbb/rrbot_ws/install/my_hardware_interface/share/my_hardware_interface/package.xml
+[0.712s] Invoked command in '/home/gbb/rrbot_ws/build/my_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/my_hardware_interface

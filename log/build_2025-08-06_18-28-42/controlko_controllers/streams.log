@@ -1,0 +1,284 @@
+[0.047s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gbb/rrbot_ws/src/controlko_controllers -DCMAKE_INSTALL_PREFIX=/home/gbb/rrbot_ws/install/controlko_controllers
+[0.297s] -- The C compiler identification is GNU 11.4.0
+[0.455s] -- The CXX compiler identification is GNU 11.4.0
+[0.469s] -- Detecting C compiler ABI info
+[0.672s] -- Detecting C compiler ABI info - done
+[0.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.694s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.700s] -- Detecting CXX compiler ABI info
+[0.903s] -- Detecting CXX compiler ABI info - done
+[0.922s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.923s] -- Detecting CXX compile features
+[0.924s] -- Detecting CXX compile features - done
+[0.931s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.474s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.482s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.567s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.576s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.592s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.761s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.764s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.000s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.087s] -- Looking for pthread.h
+[2.201s] -- Looking for pthread.h - found
+[2.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.331s] -- Found Threads: TRUE  
+[2.485s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.519s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.672s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.726s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.756s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.791s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.792s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.796s] -- Found controller_manager: 2.51.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.856s] -- Found ros2_control_test_assets: 2.51.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.858s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.866s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.868s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.035s] -- Configuring done
+[3.251s] -- Generating done
+[3.283s] -- Build files have been written to: /home/gbb/rrbot_ws/build/controlko_controllers
+[3.314s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gbb/rrbot_ws/src/controlko_controllers -DCMAKE_INSTALL_PREFIX=/home/gbb/rrbot_ws/install/controlko_controllers
+[3.319s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_controllers -- -j8 -l8
+[3.585s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.603s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.608s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/gbb/rrbot_ws/build/controlko_controllers/include/controlko_controllers/displacement_controller_parameters.hpp /home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.yaml validate_displacement_controller_parameters.hpp`[0m
+[3.631s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.416s] [ 33%] [34m[1mCreating deprecated header file /home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp[0m
+[4.504s] [ 33%] Built target displacement_controller_parameters
+[4.593s] [ 40%] [32mBuilding CXX object CMakeFiles/displacement_controller.dir/src/displacement_controller.cpp.o[0m
+[14.742s] [ 46%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[15.236s] [ 46%] Built target gmock_main
+[24.233s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.235s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.235s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:1:170:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "displacement_controller_parameters.hpp" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead.[m[K’
+[24.235s]     1 | #pragma message("#include \"displacement_controller_parameters.hpp\" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[24.235s]       |                                                                                                                                                                          [01;36m[K^[m[K
+[24.518s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[24.519s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.519s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.521s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:25:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.521s]    25 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[24.521s]       |                                                                           [01;35m[K^[m[K
+[24.521s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[24.522s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.522s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.522s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.522s]    37 | using [01;36m[KResult[m[K
+[24.522s]       |       [01;36m[K^~~~~~[m[K
+[24.522s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[24.522s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.522s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.522s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[24.523s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.523s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[24.523s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.523s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[24.523s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.523s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.523s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.523s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[24.524s]       | [01;36m[K^~~~~[m[K
+[24.524s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[24.524s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.524s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.524s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.524s]    33 |   return [01;35m[KOK[m[K;
+[24.524s]       |          [01;35m[K^~[m[K
+[24.524s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[24.524s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[24.525s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.525s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.525s]    51 | auto static [01;36m[KOK[m[K
+[24.525s]       |             [01;36m[K^~[m[K
+[24.618s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:27[m[K,
+[24.619s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.619s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[24.619s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[24.619s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[24.619s]       |                                                                                                    [01;36m[K^[m[K
+[24.620s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:28[m[K,
+[24.620s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/src/displacement_controller.cpp:15[m[K:
+[24.620s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[24.620s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[24.620s]       |                                                                                                       [01;36m[K^[m[K
+[25.562s] [ 53%] [32m[1mLinking CXX static library libgmock.a[0m
+[25.966s] [ 53%] Built target gmock
+[26.018s] [ 60%] [32mBuilding CXX object CMakeFiles/test_load_displacement_controller.dir/test/test_load_displacement_controller.cpp.o[0m
+[40.001s] [ 66%] [32m[1mLinking CXX executable test_load_displacement_controller[0m
+[41.123s] [ 66%] Built target test_load_displacement_controller
+[42.615s] [ 73%] [32m[1mLinking CXX shared library libdisplacement_controller.so[0m
+[44.019s] [ 73%] Built target displacement_controller
+[44.051s] [ 80%] [32mBuilding CXX object CMakeFiles/test_displacement_controller.dir/test/test_displacement_controller.cpp.o[0m
+[44.051s] [ 86%] [32mBuilding CXX object CMakeFiles/test_displacement_controller_preceeding.dir/test/test_displacement_controller_preceeding.cpp.o[0m
+[50.699s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.699s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.699s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.699s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:1:170:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "displacement_controller_parameters.hpp" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead.[m[K’
+[50.699s]     1 | #pragma message("#include \"displacement_controller_parameters.hpp\" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[50.699s]       |                                                                                                                                                                          [01;36m[K^[m[K
+[50.731s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.731s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.731s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.731s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:1:170:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "displacement_controller_parameters.hpp" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead.[m[K’
+[50.731s]     1 | #pragma message("#include \"displacement_controller_parameters.hpp\" is deprecated. Use #include <controlko_controllers/displacement_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[50.731s]       |                                                                                                                                                                          [01;36m[K^[m[K
+[50.935s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[50.935s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.935s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.935s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.935s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:25:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[50.935s]    25 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[50.936s]       |                                                                           [01;35m[K^[m[K
+[50.936s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[50.936s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.936s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.936s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.936s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[50.937s]    37 | using [01;36m[KResult[m[K
+[50.937s]       |       [01;36m[K^~~~~~[m[K
+[50.937s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[50.937s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.937s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.937s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.938s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[50.938s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[50.938s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[50.938s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[50.938s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[50.938s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.938s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.938s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.938s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[50.939s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[50.939s]       | [01;36m[K^~~~~[m[K
+[50.939s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[50.939s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.939s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.939s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.939s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[50.939s]    33 |   return [01;35m[KOK[m[K;
+[50.939s]       |          [01;35m[K^~[m[K
+[50.940s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[50.940s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.940s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.940s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.940s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[50.940s]    51 | auto static [01;36m[KOK[m[K
+[50.940s]       |             [01;36m[K^~[m[K
+[50.962s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[50.962s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.962s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.962s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.962s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:25:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[50.963s]    25 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[50.963s]       |                                                                           [01;35m[K^[m[K
+[50.963s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[50.963s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.963s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.964s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.964s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[50.964s]    37 | using [01;36m[KResult[m[K
+[50.964s]       |       [01;36m[K^~~~~~[m[K
+[50.964s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[50.965s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.965s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.965s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.965s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[50.965s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:30:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[50.965s]    30 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[50.965s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[50.966s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[50.966s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.966s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.966s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.966s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[50.966s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[50.966s]       | [01;36m[K^~~~~[m[K
+[50.966s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:31[m[K,
+[50.967s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.967s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.967s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.968s] [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/validate_displacement_controller_parameters.hpp:33:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[50.968s]    33 |   return [01;35m[KOK[m[K;
+[50.968s]       |          [01;35m[K^~[m[K
+[50.968s] In file included from [01m[K/home/gbb/rrbot_ws/build/controlko_controllers/include/displacement_controller_parameters.hpp:25[m[K,
+[50.968s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:23[m[K,
+[50.968s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.968s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[50.968s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[50.969s]    51 | auto static [01;36m[KOK[m[K
+[50.969s]       |             [01;36m[K^~[m[K
+[50.981s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:27[m[K,
+[50.981s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.981s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.981s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[50.981s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[50.982s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[50.982s]       |                                                                                                    [01;36m[K^[m[K
+[50.984s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:28[m[K,
+[50.984s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[50.985s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller_preceeding.cpp:16[m[K:
+[50.985s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[50.985s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[50.985s]       |                                                                                                       [01;36m[K^[m[K
+[51.014s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:27[m[K,
+[51.014s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[51.016s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[51.017s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[51.017s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[51.017s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[51.017s]       |                                                                                                    [01;36m[K^[m[K
+[51.018s] In file included from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/include/controlko_controllers/displacement_controller.hpp:28[m[K,
+[51.019s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.hpp:27[m[K,
+[51.019s]                  from [01m[K/home/gbb/rrbot_ws/src/controlko_controllers/test/test_displacement_controller.cpp:16[m[K:
+[51.019s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[51.019s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[51.019s]       |                                                                                                       [01;36m[K^[m[K
+[59.953s] [ 93%] [32m[1mLinking CXX executable test_displacement_controller_preceeding[0m
+[60.827s] [ 93%] Built target test_displacement_controller_preceeding
+[66.729s] [100%] [32m[1mLinking CXX executable test_displacement_controller[0m
+[68.536s] [100%] Built target test_displacement_controller
+[68.551s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gbb/rrbot_ws/build/controlko_controllers -- -j8 -l8
+[68.551s] Invoking command in '/home/gbb/rrbot_ws/build/controlko_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_controllers
+[68.579s] -- Install configuration: ""
+[68.579s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers
+[68.579s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/validate_displacement_controller_parameters.hpp
+[68.579s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/displacement_controller_parameters.hpp
+[68.580s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/controlko_controllers.xml
+[68.580s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/lib/libdisplacement_controller.so
+[68.590s] -- Set runtime path of "/home/gbb/rrbot_ws/install/controlko_controllers/lib/libdisplacement_controller.so" to ""
+[68.591s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include
+[68.591s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers
+[68.591s] -- Up-to-date: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/validate_displacement_controller_parameters.hpp
+[68.591s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/visibility_control.h
+[68.591s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/include/controlko_controllers/displacement_controller.hpp
+[68.591s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/library_path.sh
+[68.591s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/library_path.dsv
+[68.592s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/package_run_dependencies/controlko_controllers
+[68.592s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/parent_prefix_path/controlko_controllers
+[68.592s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/ament_prefix_path.sh
+[68.593s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/ament_prefix_path.dsv
+[68.593s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/path.sh
+[68.593s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/environment/path.dsv
+[68.593s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.bash
+[68.593s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.sh
+[68.594s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.zsh
+[68.594s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/local_setup.dsv
+[68.594s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.dsv
+[68.594s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/packages/controlko_controllers
+[68.595s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controlko_controllers
+[68.595s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.595s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.596s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[68.596s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/controlko_controllersConfig.cmake
+[68.596s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/cmake/controlko_controllersConfig-version.cmake
+[68.596s] -- Installing: /home/gbb/rrbot_ws/install/controlko_controllers/share/controlko_controllers/package.xml
+[68.599s] Invoked command in '/home/gbb/rrbot_ws/build/controlko_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gbb/rrbot_ws/build/controlko_controllers
